@@ -105,11 +105,14 @@ dependencies {
     implementation "androidx.compose.material:material-icons-extended"
     implementation "androidx.activity:activity-compose:1.10.1"
     debugImplementation "androidx.compose.ui:ui-tooling"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:1.8.2"
+
 
     // Testing dependencies
     androidTestImplementation "androidx.arch.core:core-testing:2.2.0"
     androidTestImplementation "androidx.test.espresso:espresso-contrib:3.6.1"
     androidTestImplementation "androidx.test.espresso:espresso-core:3.6.1"
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4:$version"
 
     // Compose testing dependencies
     androidTestImplementation "androidx.compose.ui:ui-test"
